@@ -1,14 +1,174 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Simple Landing Page</title>
+
+    <!-- fonts.google.com: Montserrat e Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#home">Logo</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top-3">top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="main-bg section">
+        <div class="main-content home-content">
+            <div class="home-text-content">
+                <h2>Building a random landing page example
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempora deserunt ipsa vitae. Minus, ex
+                    odio nam tempore magnam porro nulla omnis numquam. Dolorum obcaecati provident ratione culpa,
+                    temporibus consequatur.
+            </div>
+            <div class="home-img">
+                <img src="assets/img/undraw_static_assets_rpm6.svg"
+                    alt="Um desenho de um grupo de pessoas carregando os logos do HTML, CSS e JS">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content intro-content">
+            <h2>Intro Text</h2>
 
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid saepe magnam natus at nesciunt
+                dignissimos sapiente excepturi odit nobis a. Ut, laudantium ea. Vitae perspiciatis incidunt similique
+                accusamus maiores quod?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat cumque harum quis aliquam
+                dignissimos aut quas. Sapiente ad impedit placeat officiis maxime a omnis! Praesentium laudantium in
+                culpa deleniti?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quasi, veritatis in molestiae sint
+                laboriosam, asperiores architecto consequuntur dolores officiis a nam eius, rerum iste? Iure, aperiam!
+                Iusto, quisquam sequi.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In odit possimus aliquid vitae ipsum similique,
+                explicabo quas! Et ad corporis laborum facilis magnam, esse necessitatibus, iure hic laboriosam, ullam
+                at.</p>
+        </div>
+    </section>
+    <section id="top-3" class="top-3 main-bg section">
+        <div class="main-content top-3-content">
+            <h2>Top 3 Something</h2>
+            <p>A brief description</p>
+            <div class="grid">
+                <article>
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nulla voluptates alias eum tempora
+                        molestias
+                        eaque pariatur ratione aspernatur libero! Itaque ducimus libero quisquam inventore natus
+                        dignissimos,
+                        vel id necessitatibus.</p>
+                </article>
+                <article>
+                    <h3>Ipsum</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, voluptatem tempora maiores
+                        exercitationem veritatis, repellendus dolores dolore quis, placeat eligendi voluptatibus magni.
+                        Error
+                        nesciunt minus ullam quae consequatur. Totam, corporis.</p>
+                </article>
+                <article>
+                    <h3>Dolor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur incidunt vel culpa aut
+                        nihil, voluptatum excepturi. Placeat voluptatibus perferendis libero pariatur minima enim quasi
+                        tenetur reprehenderit amet, minus dolorum!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery white-bg section">
+        <div class="main-content gallery-content">
+            <h2>Gallery</h2>
+            <p>A brief description</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="Random image from unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="Random image from unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="Random image from unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="Random image from unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="Random image from unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="Random image from unsplash.">
+                </div>
+            </div>
+    </section>
+    <section id="work" class="main-bg section">
+        <div class="main-content intro-content">
+            <h2>Pricing</h2>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid saepe magnam natus at nesciunt
+                dignissimos sapiente excepturi odit nobis a. Ut, laudantium ea. Vitae perspiciatis incidunt similique
+                accusamus maiores quod?</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1.1</td>
+                            <td>Content 1.2</td>
+                            <td>Content 1.3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 2.1</td>
+                            <td>Content 2.2</td>
+                            <td>Content 2.3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 3.1</td>
+                            <td>Content 3.2</td>
+                            <td>Content 3.3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Table Footer</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
 </body>
 
 </html>

@@ -18,13 +18,15 @@
 </head>
 
 <body>
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Close menu">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked = false;">
                 <a href="#home">Logo</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#top-3">top 3</a></li>
                     <li><a href="#gallery">gallery</a></li>
@@ -206,10 +208,12 @@
     </section>
     <footer class="footer main-bg">
         <p>
-            <a rel="nofollow" target="_blank" href="https://github.com/LucasMLag">Made with <span class="heart">❤</span> by Lucas Teixeira</a>
+            <a rel="nofollow" target="_blank" href="https://github.com/LucasMLag">Made with <span class="heart">❤</span>
+                by Lucas Teixeira</a>
         </p>
 
     </footer>
+
 </body>
 </body>
 
